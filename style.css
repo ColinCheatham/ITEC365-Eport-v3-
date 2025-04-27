@@ -44,7 +44,7 @@ nav a {
 
 nav a:hover {
     background-color: black;
-    color: #f5f5dc; /* Light green on hover */
+    color: #f5f5dc; /* Light beige on hover */
 }
 
 footer {
@@ -125,7 +125,7 @@ main img, .index-image {
 }
 
 .job-experience-box {
-    background-color: #f5f5dc; /* Light beige box */
+    background-color: #f0f0f0;
     border: 1px solid #808080;
     border-radius: 10px;
     padding: 1rem;
