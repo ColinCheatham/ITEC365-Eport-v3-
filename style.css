@@ -44,7 +44,7 @@ nav a {
 
 nav a:hover {
     background-color: black;
-    color: #9ae39a; /* Light green on hover */
+    color: #f5f5dc; /* Light green on hover */
 }
 
 footer {
@@ -125,7 +125,7 @@ main img, .index-image {
 }
 
 .job-experience-box {
-    background-color: #e7ffe7; /* Light green box */
+    background-color: #f5f5dc; /* Light beige box */
     border: 1px solid #808080;
     border-radius: 10px;
     padding: 1rem;
@@ -138,7 +138,7 @@ main img, .index-image {
 
 /* ========== CONTACT PAGE ========== */
 .contact-form-box {
-    background-color: #e7ffe7; /* Light green form background */
+    background-color: #f5f5dc; /* Light beige form background */
     border: 1px solid #808080;
     border-radius: 10px;
     padding: 1.5rem;
@@ -172,7 +172,7 @@ main img, .index-image {
 }
 
 main section div {
-    background-color: #e7ffe7; /* Consistent box background */
+    background-color: #f5f5dc; /* Consistent box background */
     border: 1px solid #808080;
     border-radius: 10px;
     flex: 1;
