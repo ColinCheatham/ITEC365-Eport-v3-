@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="E-portfolio Home Page">
-    <meta name="keywords" content="Major, Minor, Portfolio">
+    <meta name="description" content="E-portfolio Contact Page">
+    <meta name="keywords" content="Contact, Message, Submit">
     <meta name="author" content="Colin Cheatham">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sustain.css">
-    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Page</title>
 </head>
 
-<!-- Google tag (gtag.js) -->
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZM36K7DDC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-ZZM36K7DDC');
 </script>
 
 <body>
     <header>
-        <h1>Colin Cheatham's E-portfolio</h1>
+        <h1>Contact Me</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -32,34 +30,30 @@
             </ul>
         </nav>
     </header>
+
     <main>
-        <div class="content-container">
-            <img src="self-photo.png" alt="Photo of myself" width="400" height="600" class="index-image">
-            <div class="text-content">
-                <section>
-                    <div>
-                        <h2>Integrated Information Technology Major</h2>
-                    </div>
-                </section>
-                <section>
-                    <div>
-                        <h3>Cybersecurity Operations Minor</h3>
-                        <p>Thank you for visiting my e-portfolio. I am Colin Cheatham, a committed student at the University of South Carolina Molinaroli College of Engineering and Computing. My anticipated graduation date is May 2027.</p><br>
-                    </div>
-                </section>
-                <section>
-                    <div>
-                        <h3>Colin Cheatham's Portfolio</h3>
-                        <p>My portfolio presents a comprehensive overview of my academic accomplishments, projects, and experiences, reflecting my dedication to the field of computing and my preparedness to make meaningful contributions to the industry.</p><br>
-                    </div>
-                </section>
-            </div>
+        <h2 style="text-align: center;">Contact Us</h2>
+        <div class="contact-form-box">
+            <form id="contact-form" action="/submit" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
         </div>
-        
     </main>
+
     <footer>
         <p>Colin Cheatham's Contact Information:</p>
-        <p>colincheatham@gmail.com | 502-593-4400 <a href="http://www.linkedin.com/in/colin-cheatham-1111872a1">LinkedIn</a></p>
+        <p>colincheatham@gmail.com | 502-593-4400 | <a href="http://www.linkedin.com/in/colin-cheatham-1111872a1">LinkedIn</a></p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
