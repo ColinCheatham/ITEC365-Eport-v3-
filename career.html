@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="E-portfolio Career Profile Page">
     <meta name="keywords" content="Job, Skills, Resume">
     <meta name="author" content="Colin Cheatham">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sustain.css">
+    <link rel="stylesheet" href="style.css">
     <title>Career Profile</title>
 </head>
 
-<!-- Google tag (gtag.js) -->
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZM36K7DDC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-ZZM36K7DDC');
 </script>
 
@@ -30,30 +28,39 @@
                 <li><a href="career.html">Career Profile</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
-        </nav><br><br><br><br><br><br>
+        </nav>
     </header>
+
     <main>
-        <div class="career">
+        <section class="career-section">
             <div class="job-experience-box">
                 <h2>Job Experience</h2>
                 <img src="kroger.png" alt="Kroger Logo" width="200" height="150">
                 <p>I have accumulated valuable experience over two and a half years at Kroger. Initially working as an e-commerce clerk for a year and a half, I utilized various devices to locate ordered items and ensure timely delivery to customers efficiently. Subsequently, I transitioned to the role of a dairy clerk, where I was responsible for stocking shelves and regularly rotating stock to maintain product freshness.</p>
             </div>
-        </div>
-        <div class="job-experience-box">
-            <h2>Skills</h2>
-            <p>I have skills and classroom experience in programming languages like Python, SQL, Oracle PL/SQL, and Visual Studio Code.</p>
-            <p>I possess hands-on experience in computer networking, including working with equipment, switches, and routers.</p>
-            <p>I have used Cisco Packet Tracer to build virtual networks. I have utilized my computer hardware skills to build a PC for personal use.</p>
-            <p>My strong multi-tasking abilities and customer service skills make me an asset in any technical environment.</p>
-        </div>
-        <img src="pcpic.png" alt="Picture of my personally built PC" width="300" height="400">
-        <h2>My Resume</h2>
-        <img src="resume-screenshot.png" alt="My Resume" width="600" height="800">
-        <a href="./documents/Colin-Cheatham_Resume.docx" download>Download and view my resume</a>
+        </section>
+
+        <section class="career-section">
+            <div class="job-experience-box">
+                <h2>Skills</h2>
+                <p>I have skills and classroom experience in programming languages like Python, SQL, Oracle PL/SQL, and Visual Studio Code.</p>
+                <p>I possess hands-on experience in computer networking, including working with equipment, switches, and routers.</p>
+                <p>I have used Cisco Packet Tracer to build virtual networks. I have utilized my computer hardware skills to build a PC for personal use.</p>
+                <p>My strong multi-tasking abilities and customer service skills make me an asset in any technical environment.</p>
+            </div>
+        </section>
+
+        <section class="career-section" style="text-align: center;">
+            <h2>My Resume</h2>
+            <img src="resume-screenshot.png" alt="My Resume" width="600" height="800">
+            <br>
+            <a href="./documents/Colin-Cheatham_Resume.docx" download class="cta-button">Download My Resume</a>
+        </section>
     </main>
+
     <footer>
         <p>Colin Cheatham's Contact Information:</p>
-        <p>colincheatham@gmail.com | 502-593-4400 <a href="http://www.linkedin.com/in/colin-cheatham-1111872a1">LinkedIn</a></p>
+        <p>colincheatham@gmail.com | 502-593-4400 | <a href="http://www.linkedin.com/in/colin-cheatham-1111872a1">LinkedIn</a></p>
     </footer>
 </body>
+</html>
